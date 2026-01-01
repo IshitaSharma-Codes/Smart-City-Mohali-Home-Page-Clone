@@ -1,0 +1,168 @@
+@media screen and (max-width:575px){
+    .modal{
+        width: 300px;
+    }
+
+    .headerRight nav{
+        position: fixed;
+        width: 100%;
+        top: 90px;
+        right: -100%;
+        background-color: white;
+        transition: 0.7s;
+       
+    }
+    .headerRight nav ul{
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .mIcon{
+        display: block;
+    }
+    
+    .freeSiteVisit h2{
+        font-size: 20px;
+        text-align: center;
+        margin: 0px 10px 10px 0px;
+    }
+    .freeSiteVisitMid{
+        margin: auto;
+        padding: 20px;
+    }
+    .freeSiteVisitMid form{
+        grid-template-columns: repeat(1,1fr);
+}
+    .freeSiteVisitMid form button{
+        padding: 10px 15px;
+    }
+    
+    .ProjectMid{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .ProjectOverview h2{
+        font-size: 24px;
+    }
+    .moreThanPlotMid{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .paragraphMid,.footerMid{
+        padding: 20px;
+    }
+    .plotAmenitiesMid{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    table {
+        border: 0;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table, table tbody, table tr, table td {
+        display: block;
+        width: 100%;
+    }
+
+    table tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    table td {
+        border-bottom: 0;
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        width: calc(50% - 20px);
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .unlock-btn {
+        width: 100%;
+
+    }
+
+
+
+
+
+    .highlightMid{
+        padding: 20px;
+    }
+    .highlightOutter{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .highlights{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .highlights img{
+        display: none;
+    }
+    .highlights i{
+        display: block;
+    }
+    .videoMid,.GalleryMid,.ScheduleMid{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .homeLoan h2{
+        font-size: 24px;
+    }
+    .homeLoanMid,.AmenitiesMid{
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;
+    }
+
+    .LandMarkMid,.FAQMid{
+        padding: 20px 10px;
+    }
+
+    .ScheduleBtn{
+        gap: 8px;
+    }
+    .ScheduleBtn button{
+        padding: 10px;
+        background: #4b4b4d !important;
+        height: auto;
+        border: none;
+        font-size: 11px;
+    }
+    .footerUpper{
+        flex-direction: column;
+    }
+    .footerUpperLeft h2{
+        text-align: left;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footerUpperRight{
+        text-align: start;
+        font-size: 14px;
+    }
+    .footerLower{
+        margin-top: 30px;
+        text-align: left;
+    }
+    .footerLower ul{
+        justify-content: left;
+    }
+}
