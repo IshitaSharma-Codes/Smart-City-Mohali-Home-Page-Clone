@@ -25,12 +25,13 @@ To view or edit the project, you only need:
  https://github.com/IshitaSharma-Codes/Smart-City-Mohali-Home-Page-Clone
 
 ### Project Structure
-smart-city-mohali/
-│
-├── index.html        # Homepage
-├──css                # Css folder
-    ├── style.css         # Stylesheet
-    ├── media.css         # Stylesheet For Responsive
-├── app.js         # JavaScript functionality
-└── images           # Images, icons, or other resources
+-smart-city-mohali/
+-│
+-├── index.html        # Homepage
+-├──css                # Css folder
+     -├── style.css         # Stylesheet
+     -├── media.css         # Stylesheet For Responsive
+-├── app.js         # JavaScript functionality
+-└── images           # Images, icons, or other resources
+
 
