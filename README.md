@@ -26,12 +26,13 @@ To view or edit the project, you only need:
 
 ### Project Structure
 -smart-city-mohali/
--│
--├── index.html        # Homepage
--├──css                # Css folder
-     -├── style.css         # Stylesheet
-     -├── media.css         # Stylesheet For Responsive
--├── app.js         # JavaScript functionality
--└── images           # Images, icons, or other resources
+-
+- index.html        # Homepage
+-css                # Css folder
+   - style.css         # Stylesheet
+   - media.css         # Stylesheet For Responsive
+- app.js         # JavaScript functionality
+- images           # Images, icons, or other resources
+
 
 
